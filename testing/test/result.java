@@ -1,6 +1,6 @@
 class result {
         int i=0,j=0,n=0;
-            private int sum=0;
+            private int sum[]={0};
             private int max;
             private int roll; 
             private int math;
@@ -74,22 +74,34 @@ class result {
           
             }
             
-            public int classtopper(int s1,int s2)
+            public int classtopper(int s1,int s2,int s3,int s4,int s5)
             {
-               int sum1=s1;
-               int sum2=s2;
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
                
-               if(sum1>sum2)
+               for(i=1;i<5;i++)
                {
-                   return sum1;
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
                }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
+               }
+                   
+              return max;
+              
                
               
-             }
+             
+            }
 
     public int classpass(int i) 
     {
@@ -101,90 +113,152 @@ class result {
                 return 0;
     }
     
-    public int mathtopper(int s1,int s2)
-            {
-               int sum1=s1;
-               int sum2=s2;
-               
-               if(sum1>sum2)
-               {
-                   return sum1;
-               }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
-               
-              
-             }
     
-    public int mmctopper(int s1,int s2)
+   public int mathtopper(int s1,int s2,int s3,int s4,int s5)
             {
-               int sum1=s1;
-               int sum2=s2;
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
                
-               if(sum1>sum2)
+               for(i=1;i<5;i++)
                {
-                   return sum1;
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
                }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
+               }
+                   
+              return max;
+              
                
               
-             }
+             
+            }
+
+     public int mmctopper(int s1,int s2,int s3,int s4,int s5)
+            {
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
+               
+               for(i=1;i<5;i++)
+               {
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
+               }
+               }
+                   
+              return max;
+              
+               
+              
+             
+            }
     
-    public int dbmstopper(int s1,int s2)
+    public int dbmstopper(int s1,int s2,int s3,int s4,int s5)
             {
-               int sum1=s1;
-               int sum2=s2;
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
                
-               if(sum1>sum2)
+               for(i=1;i<5;i++)
                {
-                   return sum1;
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
                }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
+               }
+                   
+              return max;
+              
                
               
-             }
+             
+            }
     
-    public int daatopper(int s1,int s2)
-            {
-               int sum1=s1;
-               int sum2=s2;
-               
-               if(sum1>sum2)
-               {
-                   return sum1;
-               }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
-               
-              
-             }
     
-    public int ostopper(int s1,int s2)
+     public int daatopper(int s1,int s2,int s3,int s4,int s5)
             {
-               int sum1=s1;
-               int sum2=s2;
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
                
-               if(sum1>sum2)
+               for(i=1;i<5;i++)
                {
-                   return sum1;
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
                }
-               else if(sum2>sum1)
-                   return sum2;
-               else 
-                   return sum1;
+               }
+                   
+              return max;
+              
                
               
-             }
+             
+            }
+    
+     public int ostopper(int s1,int s2,int s3,int s4,int s5)
+            {
+               int i;
+               int max ;
+               int[] s={s1,s2,s3,s4,s5}; ;
+              
+               s[0]=s1;
+               s[1]=s2;
+               s[2]=s3;
+               s[3]=s4;
+               s[4]=s5;
+               max=s1;
+               
+               for(i=1;i<5;i++)
+               {
+                 if(s[i]>max)
+               {
+                   max=s[i];
+                   
+               }
+               }
+                   
+              return max;
+              
+               
+              
+             
+            }
     
     
 
