@@ -69,8 +69,8 @@ public class test
      @Test
       public void classtopper()
      {
-         assertEquals(100,a.classtopper(100,50));
-         assertEquals(200,a.classtopper(70,200));
+         assertEquals(100,a.classtopper(100,50,30,27,60));
+         assertEquals(350,a.classtopper(70,200,100,350,300));
      }
       
       @Test
@@ -83,36 +83,36 @@ public class test
        @Test
          public void mathtopper()
      {
-         assertEquals(100,a.mathtopper(100,50));
-           assertEquals(70,a.mathtopper(20,70));
+         assertEquals(250,a.mathtopper(100,50,30,250,60));
+         assertEquals(350,a.mathtopper(250,20,100,350,30));
      }
          
          @Test
            public void mmctopper()
      {
-         assertEquals(100,a.mmctopper(100,50));
-         assertEquals(70,a.mmctopper(20,70));
+         assertEquals(200,a.mmctopper(200,50,30,27,60));
+         assertEquals(300,a.mmctopper(70,100,100,150,300));
      }
           
            @Test
              public void dbmstopper()
      {
-         assertEquals(100,a.dbmstopper(100,50));
-         assertEquals(70,a.dbmstopper(20,70));
+         assertEquals(500,a.dbmstopper(100,500,30,270,300));
+         assertEquals(350,a.dbmstopper(70,200,100,350,300));
      }
            
              @Test
                public void daatopper()
      {
-         assertEquals(100,a.daatopper(100,50));
-         assertEquals(70,a.daatopper(20,70));
+         assertEquals(600,a.daatopper(100,500,250,27,600));
+         assertEquals(300,a.daatopper(70,200,100,250,300));
      }
                
                @Test
                  public void ostopper()
      {
-         assertEquals(100,a.ostopper(100,50));
-         assertEquals(70,a.ostopper(20,70));
+        assertEquals(100,a.ostopper(100,50,30,27,60));
+         assertEquals(350,a.ostopper(70,200,100,350,300));
      }
                  
                  @Test
